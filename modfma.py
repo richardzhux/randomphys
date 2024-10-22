@@ -3,7 +3,7 @@ import numpy as np
 # Constants
 c = 299_792_458  # Speed of light in m/s
 m = 70_000  # Mass of the ship in kg
-t_final = 1  # Time duration for acceleration in seconds
+t_final = 1.0  # Time duration for acceleration in seconds
 v_final = 0.999999 * c  # Final velocity close to the speed of light
 a = v_final / t_final  # Constant acceleration
 
